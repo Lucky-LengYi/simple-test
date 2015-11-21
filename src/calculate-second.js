@@ -13,7 +13,7 @@ function getMedianNum(arr) {
   if (arr.length % 2 === 1) {
     result = arr[(arr.length - 1) / 2];
   }else {
-    result = arr[(arr.length) / 2] + arr[((arr.length) / 2) - 1];
+    result = (arr[(arr.length) / 2] + arr[((arr.length) / 2) - 1]) / 2;
   }
 
   return result;
