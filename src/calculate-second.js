@@ -18,5 +18,3 @@ function getMedianNum(arr) {
 
   return result;
 }
-
-//集合中第偶数个元素的个数为偶数时，计算第偶数个元素的中位数
