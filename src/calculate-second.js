@@ -1,11 +1,11 @@
 function calculate_median(arr) {
-  var new_arr =  arr.sort(function (item1, item2) {
+  var result =  arr.sort(function (item1, item2) {
     return item1 - item2;
   }).filter(function (item, i) {
     return i % 2 === 1;
   });
 
-  return getMedianNum(new_arr);
+  return getMedianNum(result);
 }
 
 function getMedianNum(arr) {
